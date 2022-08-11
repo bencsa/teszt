@@ -8,11 +8,11 @@ const getOrder = (elem) => {
   const orderValue = styles.order;
   const order = parseInt(orderValue);
   return order;
-};
+};  
 
 const featuredItem = (elem) => {
   if (order == 3) {
-    elem.classList.add("featured");
+    elem.classList.add("featured"); 
   } else {
     elem.classList.remove("featured");
   }
